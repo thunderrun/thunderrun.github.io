@@ -22,6 +22,8 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  transition-duration: 500ms;
+  transition-delay: 0ms;
 }
 
 .title {
@@ -62,4 +64,41 @@ body {
   filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.5));
   margin: 10px 0;
   color: #fff;
+}
+
+.image-control {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+}
+
+@media only screen and (min-width: 1000px) {
+  .image-control {
+    right: 10vw;
+  }
+}
+
+.location,
+.previous,
+.next {
+  background-color: rgba(34, 34, 34, 0.75);
+  border-radius: 6px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-width: 20px;
+  color: #e6e6e6;
+}
+
+.previous,
+.next {
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.location-icon {
+  margin-right: 6px;
 }
