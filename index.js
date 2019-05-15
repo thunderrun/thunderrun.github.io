@@ -14,6 +14,10 @@ const images = [
   {
     locationText: "Civic Center, Futian, Shenzhen",
     filename: "shenzhen-futian-citzen-center"
+  },
+  {
+    locationText: "Nanjingyan Footbridge, Jianye, Nanjing",
+    filename: "nanjingyan-footbridge"
   }
 ];
 
